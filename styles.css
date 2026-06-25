@@ -18,7 +18,7 @@ header img {
 }
 main {
     background-color: whitesmoke;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,6 +62,41 @@ main {
     height: 50px;
 }
 
+.heroes {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color: rgb(20, 20, 20);
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.heroes-img {
+    width: 70%;
+    height: auto;
+}
+
+.heroes-img img {
+    width: 100%;
+    height: auto;
+}
+
+.heroes-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.heroes-info-title {
+    color: rgb(194, 194, 194);
+  font-size: 60px;
+    
+}
+
+.heroes-info-description {
+    color: rgb(194, 194, 194);
+    font-size: 16px;
+}
 .word {
     font-family: arial, sans-serif;
     font-size: 24px;
