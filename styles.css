@@ -68,7 +68,7 @@ main {
     gap: 50px;
     background-color: rgb(20, 20, 20);
     justify-content: center;
-    padding: 30px 20px;
+    
 }
 
 .heroes-img {
@@ -85,7 +85,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
 }
 .heroes-info-title {
     color: rgb(194, 194, 194);
@@ -93,10 +93,76 @@ main {
     
 }
 
+
+
 .heroes-info-description {
     color: rgb(194, 194, 194);
     font-size: 16px;
 }
+.pack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    padding: 200px 40px
+}
+
+.pack-title {
+    color: rgb(255, 249, 249);
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+
+.pack-description {
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    margin-top: 10px;
+
+}   
+
+.pack-button {
+     color: rgb(236, 221, 4);
+     font-size: 40px;
+     margin-top: 10px;
+     padding: 30px
+     
+
+}   
+
+.pack-see {
+    color: rgb(236, 221, 4);
+    font-size: 20px;
+    margin-top: 10px;
+}
+.pack-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #666777;
+    padding: 20px 10px 20px 10px
+
+}
+
+
+.pack-img-MC {
+    width: 100%;
+    height: auto;
+    
+}
+
+.pack-img-title {
+    color: rgb(255, 248, 248);
+    font-size: 60px;
+    
+}
+
+.pack-img-description {
+    color: rgb(194, 194, 194);
+    font-size: 16px;
+}
+
 .word {
     font-family: arial, sans-serif;
     font-size: 24px;
