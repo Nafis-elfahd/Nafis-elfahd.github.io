@@ -6,6 +6,8 @@ body {
 header {
     background-color: #666777;
     height: 50px;
+    position: sticky;
+    top: 0;
 }
 
 header img {
@@ -16,6 +18,7 @@ header img {
 .profile-logo {
     border-radius: 50%;
 }
+
 main {
     background-color: whitesmoke;
     min-height: 100vh;
@@ -48,7 +51,7 @@ main {
 }
 
 .card h2 {
-    color:#666777;
+    color: #666777;
     font-size: 20px;
 }
 
@@ -68,7 +71,7 @@ main {
     gap: 50px;
     background-color: rgb(20, 20, 20);
     justify-content: center;
-    
+
 }
 
 .heroes-img {
@@ -87,10 +90,11 @@ main {
     justify-content: center;
     align-items: center;
 }
+
 .heroes-info-title {
     color: rgb(194, 194, 194);
-  font-size: 60px;
-    
+    font-size: 60px;
+
 }
 
 
@@ -99,6 +103,7 @@ main {
     color: rgb(194, 194, 194);
     font-size: 16px;
 }
+
 .pack {
     display: flex;
     flex-direction: row;
@@ -119,22 +124,21 @@ main {
     font-size: 21px;
     margin-top: 10px;
 
-}   
+}
 
 .pack-button {
-     color: rgb(236, 221, 4);
-     font-size: 40px;
-     margin-top: 10px;
-     padding: 30px
-     
-
-}   
+    color: rgb(236, 221, 4);
+    font-size: 40px;
+    margin-top: 10px;
+    padding: 30px
+}
 
 .pack-see {
     color: rgb(236, 221, 4);
     font-size: 20px;
     margin-top: 10px;
 }
+
 .pack-img {
     display: flex;
     flex-direction: column;
@@ -142,25 +146,52 @@ main {
     align-items: center;
     background-color: #666777;
     padding: 20px 10px 20px 10px
-
 }
 
 
 .pack-img-MC {
     width: 100%;
     height: auto;
-    
+
 }
 
 .pack-img-title {
     color: rgb(255, 248, 248);
     font-size: 60px;
-    
+
 }
 
 .pack-img-description {
     color: rgb(194, 194, 194);
     font-size: 16px;
+}
+.carousel {
+    position: relative;
+    margin-bottom: 50px;
+}
+.carousel-info {
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -50px;
+    left: 20%;
+}
+
+.carousel-info-title {
+    font-size: 30px;
+    color: rgb(228, 228, 228);
+    font-weight: 700;
+}
+
+.carousel-info-desription {
+    font-size: 24px;
+    color: rgb(179, 179, 179);
+    font-weight: 500;
 }
 
 .word {
@@ -170,6 +201,7 @@ main {
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
 }
+
 .container-word {
     display: flex;
     flex-direction: column;
@@ -197,9 +229,9 @@ footer img {
     width: auto;
 }
 
-.media { 
+.media {
     padding: 10px;
-}  
+}
 
 
 .margin-bottom-10 {
@@ -224,7 +256,7 @@ footer img {
 }
 
 .navigasi {
-    color:darkblue;
+    color: darkblue;
     font-weight: 900;
-    font-size:20px;
+    font-size: 20px;
 }
